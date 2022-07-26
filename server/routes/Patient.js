@@ -23,6 +23,7 @@ router.post("/patient", async (req, res) => {
     CNIC,
     profession,
   } = req.body;
+  const status = 1;
   const newPatient = await Patient.create({
     patientname,
     disease,
