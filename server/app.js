@@ -16,8 +16,8 @@ const feedbackRouter = require("./routes/Feedback");
 //to avoid undefined data
 const app=express();
 app.use(cors({
-    origin:"*",
-    optionsSuccessStatus:200
+    origin: "*",
+    optionsSuccessStatus: 200
 }))
 
 //port number
